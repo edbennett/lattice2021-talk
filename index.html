@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="css/theme/sa2c.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -17,13 +17,15 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h2 style="padding-top: 200px;">
-						Investigating the conformal behaviour of SU(2) with one adjoint Dirac flavor
+					<h2 style="padding-top: 100px;">
+						Investigating the conformal behaviour of SU(2)<br>with one adjoint Dirac flavor
 					</h2>
 					<h3>
 						Ed Bennett, Andreas Athenodorou, Georg Bergner, Biagio Lucini
 					</h3>
-					<div style="padding-top: 200px;">
+					<p style="padding-top: 80px">Lattice 2021, 2021-07-30</p>
+					<p>Slides: <a href="https://edbennett.github.io/lattice2021-talk">https://edbennett.github.io/lattice2021-talk</a></p>
+					<div style="padding-top: 80px;">
 						<a href="https://www.swansea.ac.uk">
 							<img class="plain title-image" src='images/su-vstack-white.svg' alt="Swansea University logo">
 						</a>
@@ -39,7 +41,32 @@
 					</div>
 				</section>
 
-				<section>Slide 2</section>
+				<section>
+					<h2>Outline</h2>
+					<ul>
+						<li>Introduction
+							<ul>
+								<li>Motivation</li>
+								<li>Previous work</li>
+							</ul>
+						</li>
+						<li>Results
+							<ul>
+								<li>Spectrum</li>
+								<li>Mass anomalous dimension</li>
+								<li>Chiral perturbation theory</li>
+							</ul>
+						<li>Conclusions</li>
+					</ul>
+				</section>
+				<section data-markdown="slides/introduction.md" data-separator-vertical="^\r?\n-\r?\n$"> </section>
+				<section data-markdown="slides/results.md" data-separator-vertical="^\r?\n-\r?\n$"> </section>
+				<section data-markdown="slides/conclusions.md" data-separator-vertical="^\r?\n-\r?\n$"> </section>
+				<section>
+					<h1>Thank you</h1>
+				</section>
+				<section data-markdown="slides/backup.md" data-separator-vertical="^\r?\n-\r?\n$"> </section>
+				</section>
 			</div>
 		</div>
 
@@ -54,9 +81,11 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				width: 1366,
+				height: 768,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
 			});
 		</script>
 	</body>
