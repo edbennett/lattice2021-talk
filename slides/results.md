@@ -24,14 +24,6 @@
 
 -
 
-## Tensor/scalar ratio
-
-![Plots of the ratio of tensor to scalar glueball compared with gauge-gravity predictions for each beta](images/R_ratio.svg) <!-- .element width="65%" -->
-
-(see also 1605.04258)
-
--
-
 ## Topological susceptibility
 
 ![A plot of the topological susceptibility scaled by the gradient flow scale w0 as a function of the scale](images/susceptibility.svg)  <!-- .element width="65%" -->
@@ -48,3 +40,10 @@
 
 ![A plot showing chiral perturbation theory results for each value of beta, with relatively poor fit quality.](images/Xpt.svg) <!-- .element width="65%" -->
 
+-
+
+## Tensor/scalar ratio
+
+![Plots of the ratio of tensor to scalar glueball compared with gauge-gravity predictions for each beta](images/R_ratio.svg) <!-- .element width="65%" -->
+
+(see also 1605.04258)
