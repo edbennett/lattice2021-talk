@@ -7,6 +7,7 @@
 * Unimproved Wilson gauge action
 * Unimproved Wilson fermion action
   * as 1412.5994
+  * Real action
 * $\beta=2.05, 2.1, 2.15, 2.2$
 * $am_{2^+_{\mathsf{s}}} \in (0.42, 1.08)$
 
